@@ -98,6 +98,14 @@
   width: 90%;
 }
 
+.work-link-text {
+  font-size: 12px;
+  color: #888 !important;
+  margin-top: 15px !important;
+  word-break: break-all;
+  line-height: 1.4;
+}
+
 .work-image {
   display: flex;
   width: 100%;

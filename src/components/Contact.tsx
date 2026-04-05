@@ -1,4 +1,4 @@
-import { MdArrowOutward, MdCopyright } from "react-icons/md";
+import { MdArrowOutward } from "react-icons/md";
 import "./styles/Contact.css";
 
 const Contact = () => {
@@ -10,45 +10,33 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:dangthanhnam91023@mail.com" data-cursor="disable">
-                dangthanhnam91023@mail.com
+              <a href="mailto:dangthanhnam91023@gmail.com" data-cursor="disable">
+                dangthanhnam91023@gmail.com
               </a>
             </p>
-            <h4>Phone</h4>
-            <p>
-              <a href="tel:+84333281734" data-cursor="disable">
-                +84 333 281 734
-              </a>
-            </p>
+            <h4>Location</h4>
+            <p>Ho Chi Minh, Vietnam</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
             <a
-              href="https://github.com"
+              href="https://www.facebook.com/thahnammm"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
-              Github <MdArrowOutward />
+              Facebook <MdArrowOutward />
             </a>
             <a
-              href="https://www.linkedin.com"
+              href="https://www.tiktok.com/@crushh91023"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
             >
-              Linkedin <MdArrowOutward />
+              Tiktok <MdArrowOutward />
             </a>
             <a
-              href="https://x.com"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com"
+              href="https://www.instagram.com/thah_nammm/"
               target="_blank"
               data-cursor="disable"
               className="contact-social"
@@ -56,14 +44,14 @@ const Contact = () => {
               Instagram <MdArrowOutward />
             </a>
           </div>
-          <div className="contact-box">
-            <h2>
-              Designed and Developed <br /> by <span>Thel</span>
-            </h2>
-            <h5>
-              <MdCopyright /> 2026
-            </h5>
-          </div>
+          {/*<div className="contact-box">*/}
+          {/*  <h2>*/}
+          {/*    Designed and Developed <br /> by <span>Thel</span>*/}
+          {/*  </h2>*/}
+          {/*  <h5>*/}
+          {/*    <MdCopyright /> 2026*/}
+          {/*  </h5>*/}
+          {/*</div>*/}
         </div>
       </div>
     </div>

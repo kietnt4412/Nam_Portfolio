@@ -10,14 +10,14 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:example@mail.com" data-cursor="disable">
-                example@mail.com
+              <a href="mailto:dangthanhnam91023@mail.com" data-cursor="disable">
+                dangthanhnam91023@mail.com
               </a>
             </p>
             <h4>Phone</h4>
             <p>
-              <a href="tel:+9199999999" data-cursor="disable">
-                +91 99999 99999
+              <a href="tel:+84333281734" data-cursor="disable">
+                +84 333 281 734
               </a>
             </p>
           </div>

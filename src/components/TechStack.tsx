@@ -1,5 +1,6 @@
 import * as THREE from "three";
 import { useRef, useMemo, useState, useEffect } from "react";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { Environment } from "@react-three/drei";
 import { EffectComposer, N8AO } from "@react-three/postprocessing";
@@ -128,6 +129,12 @@ const TechStack = () => {
   const [isActive, setIsActive] = useState(false);
 
   useEffect(() => {
+    // When this lazy-loaded heavy component finishes mounting, force GSAP to refresh 
+    // the layout dimensions so ScrollSmoother doesn't stop scrolling prematurely
+    const timeout = setTimeout(() => {
+      ScrollTrigger.refresh();
+    }, 500);
+
     const handleScroll = () => {
       const scrollY = window.scrollY || document.documentElement.scrollTop;
       const threshold = document
@@ -148,6 +155,7 @@ const TechStack = () => {
     });
     window.addEventListener("scroll", handleScroll);
     return () => {
+      clearTimeout(timeout);
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);

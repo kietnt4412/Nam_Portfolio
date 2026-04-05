@@ -87,24 +87,22 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>VIDEO EDIT</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+                I like shaping raw footage into videos that people actually want to watch.
+                For me, editing is not just about cutting clips together — it’s about rhythm, emotion,
+                and making the whole piece feel right.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
-                <div className="what-tags">Express.js</div>
-                <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
+                <div className="what-tags">PremierePro</div>
+                <div className="what-tags">AfterEffect</div>
+                <div className="what-tags">Davinci</div>
+                <div className="what-tags">Resolve</div>
+                <div className="what-tags">CapCut</div>
+                <div className="what-tags">Canva</div>
+                <div className="what-tags">Photoshop</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -128,22 +126,18 @@ const WhatIDo = () => {
             </div>
             <div className="what-corner"></div>
             <div className="what-content-in">
-              <h3>DESIGN</h3>
+              <h3>VIDEOGRAPHY</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+                I shoot with a simple goal: to capture visuals that feel strong, natural,
+                and useful in the edit. I pay attention to composition, light, and movement
+                so the footage already carries the right mood from the beginning.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
-                <div className="what-tags">Blender</div>
-                <div className="what-tags">Zbrush</div>
-                <div className="what-tags">UI Design</div>
-                <div className="what-tags">Motion</div>
-                <div className="what-tags">Rigging</div>
-                <div className="what-tags">3D Animation</div>
-                <div className="what-tags">Character Design</div>
-                <div className="what-tags">Modelling</div>
+                <div className="what-tags">CameraOperation</div>
+                <div className="what-tags">ShotComposition</div>
+                <div className="what-tags">LightingSetup</div>
               </div>
               <div className="what-arrow"></div>
             </div>

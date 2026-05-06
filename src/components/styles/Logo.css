@@ -1,0 +1,52 @@
+.logo-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  height: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+  overflow: visible;
+}
+
+/* ── Default text name ─────────────────────────────────── */
+.logo-text {
+  font-family: "Geist", sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: #eae5ec;
+  opacity: 1;
+  pointer-events: none;
+  position: relative;
+  z-index: 1;
+}
+
+/* ── Signature SVG ─────────────────────────────────────── */
+.signature-container {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 2;
+}
+
+.signature-path {
+  fill: none;
+  stroke: #eae5ec;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-width: 2.2px;
+  filter: drop-shadow(0 0 1px rgba(234, 229, 236, 0.3));
+  opacity: 0.95;
+}
+
+@media only screen and (min-width: 1200px) {
+  .logo-text {
+    font-size: 18px;
+  }
+}
